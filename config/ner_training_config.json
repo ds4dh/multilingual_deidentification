@@ -1,0 +1,17 @@
+{
+    "train_standoff_path": "./data/english/tac_ad_bo_wa/train",
+    "val_standoff_path": "./data/english/tac_ad_bo_wa/val",
+    "test_standoff_path": "./data/english/tac_ad_bo_wa/test",
+    "document_level": false,
+    "train_sentence_tokenizer": false,
+    "post_process_type": "classic",
+    "split_brat_on_newlines": false,
+    "device": "cuda:4",
+    "pretrained_model": "FacebookAI/xlm-roberta-base",
+    "max_len": 512,
+    "two_phase_learning": true,
+    "max_epoch": 20,
+    "batch_size": 12,
+    "learning_rate": 4.205786838807149e-05,
+    "warmup_proportion": 0.0
+}
